@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "MediatR/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +38,19 @@
     }
   },
   "libraries": {
+    "MediatR/7.0.0": {
+      "sha512": "YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
+      "type": "package",
+      "path": "mediatr/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.7.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
@@ -175,6 +197,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "MediatR >= 7.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -219,6 +242,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
