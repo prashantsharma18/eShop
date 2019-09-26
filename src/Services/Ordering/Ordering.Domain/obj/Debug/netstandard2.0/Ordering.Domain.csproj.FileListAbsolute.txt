@@ -1,0 +1,9 @@
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\bin\Debug\netstandard2.0\Ordering.Domain.deps.json
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\bin\Debug\netstandard2.0\Ordering.Domain.dll
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\bin\Debug\netstandard2.0\Ordering.Domain.pdb
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\obj\Debug\netstandard2.0\Ordering.Domain.csprojAssemblyReference.cache
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\obj\Debug\netstandard2.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\obj\Debug\netstandard2.0\Ordering.Domain.AssemblyInfoInputs.cache
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\obj\Debug\netstandard2.0\Ordering.Domain.AssemblyInfo.cs
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\obj\Debug\netstandard2.0\Ordering.Domain.dll
+C:\Practical\eShop\src\Services\Ordering\Ordering.Domain\obj\Debug\netstandard2.0\Ordering.Domain.pdb
