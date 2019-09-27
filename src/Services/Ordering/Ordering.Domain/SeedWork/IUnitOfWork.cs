@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace eShop.Services.Ordering.Domain.Seedwork
+namespace eShop.Services.Ordering.Domain.SeedWork
 {
     public interface IUnitOfWork : IDisposable
     {

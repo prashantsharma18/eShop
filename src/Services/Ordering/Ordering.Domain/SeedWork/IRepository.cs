@@ -1,4 +1,4 @@
-namespace eShop.Services.Ordering.Domain.Seedwork
+namespace eShop.Services.Ordering.Domain.SeedWork
 {
     public interface IRepository<T> where T : IAggregateRoot
     {
